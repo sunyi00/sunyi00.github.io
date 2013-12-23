@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "github https password caching"
-date:   2013-12-22 18:30:00
+date:   2013-12-23 13:30:00
 categories: ref
 tags: ref github
 ---
