@@ -1,9 +1,15 @@
 ---
 layout: default
 ---
+<style type="text/css">
+  .inline {display: inline}
+</style>
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
-
+<div>
+<p class="inline meta">{{ page.date | date_to_string }}</p>
+<p class="inline meta">{% for tag in page.tags %}<a class="inline tag_list_link" href="/tag/{{ tag }}">{{ tag }}</a> {% endfor %}</p>
+</div>
+<p></p>
 <div class="post">
 {{ content }}
 </div>

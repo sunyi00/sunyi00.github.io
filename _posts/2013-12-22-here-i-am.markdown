@@ -3,6 +3,7 @@ layout: post
 title:  "Here I am"
 date:   2013-12-22 18:30:00
 categories: update
+tags: update other
 ---
 
 在 `Github.io` 留下自己的足迹

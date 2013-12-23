@@ -1,3 +1,4 @@
 name: Tachikoma Days
 markdown: redcarpet
 pygments: true
+paginate: 10
